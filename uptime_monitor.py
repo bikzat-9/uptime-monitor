@@ -15,7 +15,7 @@ try:
 
     # We capture our final message in a variable so we can print AND log it
     if "Google" in response.text:
-        log_message = f"{timestamp} - SUCCSESS - Status Code: {response.status_code}"
+        log_message = f"{timestamp} - SUCCESS - Status Code: {response.status_code}"
     else:
         log_message = f"{timestamp} - ERROR - Site loaded, but expected content missing"
 
