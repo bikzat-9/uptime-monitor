@@ -29,3 +29,14 @@ Every time the script runs, it will print the result to your console and add a n
 Example log output:
 > 2026-03-09 17:00:00 - SUCCESS - Status Code: 200
 > 2026-03-09 17:05:00 - ERROR - Site loaded, but expected content missing
+
+## Running with Docker
+If you prefer not to install Python or the required libraries directly on your computer, you can run this monitor inside an isolated Docker container.
+
+**1. Build the Docker image:**
+Open your terminal in the project folder and run:
+`docker build -t uptime-monitor .`
+
+**2. Run the container:**
+Once the build is finished, start the container with:
+`docker run uptime-monitor`
