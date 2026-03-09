@@ -21,7 +21,7 @@ You can install the required library using pip:
 1. Clone this repository to your local machine.
 2. Open your terminal and navigate to the project folder.
 3. Run the script:
-   `python your_script_name.py` *(Note: update this with your actual file name!)*
+   'python uptime_monitor.py'
 
 ## Output
 Every time the script runs, it will print the result to your console and add a new line to `uptime_log.txt`. 
