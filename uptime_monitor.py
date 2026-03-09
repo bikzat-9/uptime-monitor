@@ -1,5 +1,5 @@
 import requests
-import datetime #This lets us work with dates and times :P. For now, use steps (ex. 1, 2, 3) to mark the steps for writing to a textfile
+import datetime
 
 # The URL we want to monitor
 url = "https://www.google.com"
