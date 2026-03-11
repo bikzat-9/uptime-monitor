@@ -25,4 +25,4 @@ jobs:
 
       # Step C: Turn the box on
       - name: Run script
-        run: docker run uptime-monitor
+        run: docker run -e DISCORD_WEBHOOK_URL="${{ secrets.DISCORD_WEBHOOK_URL }}" uptime-monitor
