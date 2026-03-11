@@ -33,7 +33,7 @@ To test the script on your own computer before letting the cloud take over:
 
 *Note: The `.env` file is ignored by Git, so your private URL will never be uploaded to GitHub!*
 
-### 4. Cloud Automation Setup (GitHub Actions)
+### 4. Cloud Automation Setup (GitHub Actions) (COMPLETELY OPTIONAL)
 To let GitHub run this script automatically for you:
 1. Go to your GitHub repository in your web browser.
 2. Click on **Settings > Secrets and variables > Actions**.
