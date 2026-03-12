@@ -31,7 +31,7 @@ To test the script directly on your own computer:
 *Note: The url and expected_text variables must be in quotes ""!*
 4. Run the script: `python uptime_monitor.py`
 
-### Running Locally with Docker (Optional)
+### Running Locally with Docker (Optional but Easier and Safer)
 If you prefer to run this in a clean container without installing Python tools directly to your machine:
 1. Make sure your `.env` file is set up (see above).
 2. Build the Docker image: 
